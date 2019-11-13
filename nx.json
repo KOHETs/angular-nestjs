@@ -1,0 +1,24 @@
+{
+  "npmScope": "angular-nestjs",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "angular-nest-e2e": {
+      "tags": []
+    },
+    "angular-nest": {
+      "tags": []
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    }
+  }
+}
