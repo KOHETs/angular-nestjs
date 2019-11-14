@@ -1,0 +1,13 @@
+{
+  "name": "angular-nestjs-frontend",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "main.js",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "private": true
+}

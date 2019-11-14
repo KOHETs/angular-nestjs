@@ -15,7 +15,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/apps/angular-nest",
+            "outputPath": "appengines/frontend/dist",
             "index": "apps/angular-nest/src/index.html",
             "main": "apps/angular-nest/src/main.ts",
             "polyfills": "apps/angular-nest/src/polyfills.ts",
@@ -135,7 +135,7 @@
         "build": {
           "builder": "@nrwl/node:build",
           "options": {
-            "outputPath": "dist/apps/api",
+            "outputPath": "appengines/backend/dist",
             "main": "apps/api/src/main.ts",
             "tsConfig": "apps/api/tsconfig.app.json",
             "assets": ["apps/api/src/assets"]
